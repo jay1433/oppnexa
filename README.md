@@ -1,7 +1,8 @@
 # OppNexa
 
-Marketing site for **OppNexa** — we find open government bid opportunities across
-the US and India, match them to your company, and deliver a weekly report with the
+Marketing site for **OppNexa** — we find open bid and tender opportunities
+(government *and* private, from software projects to construction) across the US
+and India, match them to your company, and deliver a weekly report with the
 contacts you need to pursue them. You focus on winning.
 
 ## Structure
