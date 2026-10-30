@@ -1,0 +1,10 @@
+{
+  "name": "oppnexa-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OppNexa marketing site + Resend-backed contact function",
+  "type": "module",
+  "dependencies": {
+    "resend": "^6.35.0"
+  }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OppNexa — ON Logo (baseline)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0A2540;--blue:#2F6BFF;--line:#E3E8F0;--light:#F6F8FC;--grey:#64748B}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Inter',system-ui,sans-serif;color:var(--navy);background:var(--light);line-height:1.5}
+  .wrap{max-width:900px;margin:0 auto;padding:46px 22px 70px}
+  .kicker{font-family:'Plus Jakarta Sans';font-weight:800;font-size:12px;letter-spacing:.5px;color:var(--blue);text-transform:uppercase}
+  h1{font-family:'Plus Jakarta Sans';font-weight:800;font-size:30px;margin:8px 0 6px;letter-spacing:-1px}
+  .lede{color:var(--grey);margin:0 0 30px}
+  .row{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+  .box{border-radius:16px;display:flex;align-items:center;justify-content:center;flex:1;min-width:200px;min-height:150px}
+  .lite{background:#fff;border:1px solid var(--line)}
+  .dark{background:var(--navy)}
+  .fav{background:#fff;border:1px solid var(--line);min-width:120px;flex:0 0 120px}
+  .lock{display:flex;align-items:center;gap:16px}
+  .wm{font-family:'Plus Jakarta Sans';font-weight:800;letter-spacing:-1.2px;font-size:38px}
+  .wm .n{color:var(--blue)}
+  .dark .wm{color:#fff}.dark .wm .n{color:#6ea2ff}
+  .cap{text-align:center;font-size:12px;color:var(--grey);margin-top:8px}
+  .box svg{overflow:visible}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="on" viewBox="0 0 120 100">
+    <circle cx="42" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="10"/>
+    <polyline points="78,74 78,26 106,74 106,26" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="106" cy="26" r="8.5" fill="none" stroke="var(--ac)" stroke-width="2.5">
+      <animate attributeName="r" values="8.5;17" dur="1.6s" repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.2 0 0.4 1"/>
+      <animate attributeName="opacity" values="0.55;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="106" cy="26" r="8.5" fill="var(--ac)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </circle>
+  </symbol>
+</svg>
+<div class="wrap">
+  <div class="kicker">OppNexa · Chosen logo (01 Navy &amp; Blue)</div>
+  <h1>The ON monogram — baseline</h1>
+  <p class="lede">This is what we’ll refine. Tell me the changes and I’ll adjust the exact geometry.</p>
+
+  <div class="row">
+    <div class="box lite" style="color:var(--navy);--ac:var(--blue)"><svg width="150" height="125"><use href="#on"/></svg></div>
+    <div class="box dark" style="color:#fff;--ac:var(--blue)"><svg width="150" height="125"><use href="#on"/></svg></div>
+    <div class="box fav" style="color:var(--navy);--ac:var(--blue)"><svg width="54" height="45"><use href="#on"/></svg></div>
+  </div>
+
+  <div class="row">
+    <div class="box lite" style="color:var(--navy);--ac:var(--blue)">
+      <div class="lock"><svg width="66" height="55"><use href="#on"/></svg><span class="wm">Opp<span class="n">Nexa</span></span></div>
+    </div>
+    <div class="box dark" style="color:#fff;--ac:var(--blue)">
+      <div class="lock"><svg width="66" height="55"><use href="#on"/></svg><span class="wm">Opp<span class="n">Nexa</span></span></div>
+    </div>
+  </div>
+</div>
+</body></html>

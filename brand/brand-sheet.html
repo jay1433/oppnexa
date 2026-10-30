@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OppNexa — Logo & Identity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0A2540; --navy2:#13315C; --blue:#2F6BFF; --emerald:#10B981;
+    --grey:#64748B; --line:#E3E8F0; --light:#F6F8FC; --white:#FFFFFF;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Inter',system-ui,sans-serif;color:var(--navy);background:var(--light);line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:48px 24px 90px}
+  .kicker{font-family:'Plus Jakarta Sans';font-weight:800;letter-spacing:.5px;font-size:12px;color:var(--blue);text-transform:uppercase}
+  h1{font-family:'Plus Jakarta Sans';font-weight:800;font-size:34px;margin:8px 0 6px;letter-spacing:-1px}
+  .lede{color:var(--grey);max-width:640px;margin:0 0 40px}
+  .sec{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:34px;margin-bottom:26px;box-shadow:0 1px 3px rgba(10,37,64,.04)}
+  .tag{display:inline-block;font-family:'Plus Jakarta Sans';font-weight:700;font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:#fff;background:var(--navy);padding:5px 12px;border-radius:999px;margin-bottom:16px}
+  h2{font-family:'Plus Jakarta Sans';font-weight:800;font-size:22px;margin:0 0 6px;letter-spacing:-.5px}
+  p.muted{color:var(--grey);margin:.2em 0}
+  /* logo lockup */
+  .lockup{display:flex;align-items:center;gap:18px}
+  .wordmark{font-family:'Plus Jakarta Sans';font-weight:800;letter-spacing:-1.2px;line-height:1}
+  .wordmark .nx{color:var(--blue)}
+  .hero{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.hero{grid-template-columns:1fr}.wrap{padding:30px 16px 70px}}
+  .panel{border-radius:16px;padding:44px 36px;display:flex;align-items:center;justify-content:center}
+  .panel.lite{background:var(--light);border:1px solid var(--line)}
+  .panel.dark{background:var(--navy)}
+  .panel.dark .wordmark{color:#fff}
+  /* meaning list */
+  .meaning{display:grid;grid-template-columns:34px 1fr;gap:12px 14px;align-items:start;margin-top:10px}
+  .num{width:30px;height:30px;border-radius:9px;background:var(--light);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans';font-weight:800;font-size:13px;color:var(--blue)}
+  .meaning b{font-family:'Plus Jakarta Sans'}
+  .row{display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+  .vcard{border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center;min-width:150px;flex:1}
+  .vcard.dark{background:var(--navy);border-color:var(--navy)}
+  .vcard.black{background:#000;border-color:#000}
+  .vcap{font-size:12px;color:var(--grey);margin-top:12px}
+  .vcard.dark .vcap,.vcard.black .vcap{color:#9fb2d4}
+  .sizes{display:flex;align-items:flex-end;gap:26px;flex-wrap:wrap}
+  .sizes .s{text-align:center}
+  .sizes .s .vcap{margin-top:8px}
+  .appgrid{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+  .tile{width:120px;height:120px;border-radius:26px;background:var(--navy);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(10,37,64,.25)}
+  .tab{width:260px;border:1px solid var(--line);border-radius:12px 12px 0 0;overflow:hidden;background:#fff}
+  .tabbar{background:#eef2f8;padding:8px 10px;display:flex;gap:8px;align-items:center}
+  .tabpill{background:#fff;border-radius:8px 8px 0 0;padding:7px 12px;display:flex;align-items:center;gap:7px;font-size:12px;color:var(--navy);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+  .tabbody{height:60px;background:#fff}
+  .card-b{width:300px;height:176px;border-radius:14px;background:linear-gradient(135deg,#0A2540,#13315C);color:#fff;padding:20px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 12px 30px rgba(10,37,64,.3)}
+  .card-b .nm{font-family:'Plus Jakarta Sans';font-weight:700;font-size:15px}
+  .card-b .ti{font-size:11px;color:#9fb2d4}
+  .card-b .ct{font-size:10.5px;color:#cdd9ef;line-height:1.7}
+  .swatches{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+  .sw{width:80px}.sw .box{height:52px;border-radius:10px;border:1px solid rgba(10,37,64,.08)}
+  .sw .nm{font-size:11px;color:var(--grey);margin-top:6px}.sw .hx{font-size:11px;font-weight:600}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}@media(max-width:760px){.cols{grid-template-columns:1fr}}
+  .pick{background:var(--navy);color:#cdd9ef;border-radius:22px;padding:28px 32px;text-align:center}
+  .pick b{color:#fff}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">OppNexa · Visual Identity</div>
+  <h1>The Nexus Mark</h1>
+  <p class="lede">A single, deliberate idea executed with geometric precision — a complete ring holding a rising connection. Built on a 100-unit grid with one consistent stroke weight, so it reads as considered, not generated.</p>
+
+  <!-- HERO -->
+  <div class="sec">
+    <span class="tag">Primary logo</span>
+    <div class="hero">
+      <div class="panel lite">
+        <div class="lockup">
+          <svg width="66" height="66" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/>
+            <line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/>
+            <circle cx="40" cy="60" r="7.5" fill="#0A2540"/>
+            <circle cx="61" cy="39" r="9" fill="#2F6BFF"/>
+          </svg>
+          <span class="wordmark" style="font-size:40px">Opp<span class="nx">Nexa</span></span>
+        </div>
+      </div>
+      <div class="panel dark">
+        <div class="lockup">
+          <svg width="66" height="66" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="33" stroke="#FFFFFF" stroke-width="9"/>
+            <line x1="40" y1="60" x2="61" y2="39" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+            <circle cx="40" cy="60" r="7.5" fill="#FFFFFF"/>
+            <circle cx="61" cy="39" r="9" fill="#2F6BFF"/>
+          </svg>
+          <span class="wordmark" style="font-size:40px">Opp<span class="nx">Nexa</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEANING -->
+  <div class="sec">
+    <span class="tag">The idea</span>
+    <h2>Why it means something</h2>
+    <p class="muted">Every element earns its place — this is the story you can tell a prospect in one breath.</p>
+    <div class="meaning" style="margin-top:18px">
+      <div class="num">O</div><div><b>The ring is the “O” of OppNexa — and Opportunity.</b> A closed, reliable loop: the continuous flow of government bids we track, week after week.</div>
+      <div class="num">N</div><div><b>The rising link is the “N” of Nexa — the nexus.</b> Two nodes joined: your company connected to a live opportunity. It leans upward — growth, momentum, bids won.</div>
+      <div class="num">●</div><div><b>The blue node is the opportunity we deliver.</b> It sits at the top of the climb, breaking toward the ring’s edge — the specific, ready-to-bid lead handed to you.</div>
+      <div class="num">ON</div><div><b>Read together: O + N = “ON.”</b> OppNexa keeps you switched <i>on</i> to opportunity. One hidden word that sums up the whole service.</div>
+    </div>
+  </div>
+
+  <!-- CONSTRUCTION -->
+  <div class="sec">
+    <span class="tag">Construction</span>
+    <h2>Built on a grid</h2>
+    <p class="muted">One radius, one stroke weight (9u), nodes on the same diagonal axis. Geometry a developer can reproduce exactly — nothing is freehand.</p>
+    <div class="row" style="margin-top:18px">
+      <svg width="260" height="260" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs><pattern id="g" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#EAF0F8" stroke-width="1"/></pattern></defs>
+        <rect x="8" y="8" width="84" height="84" fill="url(#g)"/>
+        <!-- guides -->
+        <circle cx="50" cy="50" r="33" fill="none" stroke="#2F6BFF" stroke-width="0.6" stroke-dasharray="2 2" opacity=".6"/>
+        <circle cx="50" cy="50" r="18.5" fill="none" stroke="#2F6BFF" stroke-width="0.6" stroke-dasharray="2 2" opacity=".5"/>
+        <line x1="50" y1="6" x2="50" y2="94" stroke="#2F6BFF" stroke-width="0.5" opacity=".35"/>
+        <line x1="6" y1="50" x2="94" y2="50" stroke="#2F6BFF" stroke-width="0.5" opacity=".35"/>
+        <line x1="22" y1="78" x2="78" y2="22" stroke="#10B981" stroke-width="0.6" stroke-dasharray="2 2" opacity=".7"/>
+        <!-- mark -->
+        <circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9" fill="none"/>
+        <line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="40" cy="60" r="7.5" fill="#0A2540"/>
+        <circle cx="61" cy="39" r="9" fill="#2F6BFF"/>
+        <!-- radius annot -->
+        <circle cx="50" cy="50" r="1.1" fill="#2F6BFF"/>
+      </svg>
+      <div style="flex:1;min-width:220px">
+        <div class="meaning">
+          <div class="num" style="color:var(--navy)">R</div><div class="muted"><b style="color:var(--navy)">Ring radius 33u</b>, centered on the canvas.</div>
+          <div class="num" style="color:var(--navy)">W</div><div class="muted"><b style="color:var(--navy)">Stroke 9u</b> everywhere — ring, link and node diameters stay in the same family.</div>
+          <div class="num" style="color:var(--emerald)">∠</div><div class="muted"><b style="color:var(--navy)">45° axis</b> — the link and both nodes sit on one clean diagonal.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CLEARSPACE + SIZES -->
+  <div class="sec">
+    <span class="tag">Clear space &amp; minimum size</span>
+    <h2>Holds up small</h2>
+    <p class="muted">Legible at favicon scale — the test of a real mark.</p>
+    <div class="sizes" style="margin-top:20px">
+      <div class="s"><svg width="64" height="64" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">64px</div></div>
+      <div class="s"><svg width="40" height="40" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">40px</div></div>
+      <div class="s"><svg width="28" height="28" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">28px</div></div>
+      <div class="s"><svg width="18" height="18" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">18px</div></div>
+    </div>
+  </div>
+
+  <!-- VARIANTS -->
+  <div class="sec">
+    <span class="tag">Color variants</span>
+    <h2>Every background covered</h2>
+    <div class="row" style="margin-top:18px">
+      <div class="vcard"><svg width="58" height="58" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">Full colour</div></div>
+      <div class="vcard"><svg width="58" height="58" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#0A2540"/><circle cx="61" cy="39" r="9" fill="#0A2540"/></svg><div class="vcap">One colour · navy</div></div>
+      <div class="vcard dark"><svg width="58" height="58" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#fff" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#fff" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#fff"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg><div class="vcap">Reversed</div></div>
+      <div class="vcard black"><svg width="58" height="58" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#fff" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#fff" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#fff"/><circle cx="61" cy="39" r="9" fill="#fff"/></svg><div class="vcap">Mono · knockout</div></div>
+    </div>
+  </div>
+
+  <!-- APPLICATIONS -->
+  <div class="sec">
+    <span class="tag">In the real world</span>
+    <h2>Applications</h2>
+    <p class="muted">How it shows up where clients actually see it.</p>
+    <div class="appgrid" style="margin-top:22px">
+      <!-- app tile -->
+      <div style="text-align:center">
+        <div class="tile">
+          <svg width="66" height="66" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#fff" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#fff" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#fff"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg>
+        </div>
+        <div class="vcap" style="margin-top:10px">App / social icon</div>
+      </div>
+      <!-- browser tab -->
+      <div style="text-align:center">
+        <div class="tab">
+          <div class="tabbar">
+            <span style="width:10px;height:10px;border-radius:50%;background:#f45b56;display:inline-block"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#f7bd3a;display:inline-block"></span>
+            <span style="width:10px;height:10px;border-radius:50%;background:#2fc85f;display:inline-block"></span>
+            <span class="tabpill" style="margin-left:6px">
+              <svg width="14" height="14" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#0A2540" stroke-width="10"/><line x1="40" y1="60" x2="61" y2="39" stroke="#0A2540" stroke-width="10" stroke-linecap="round"/><circle cx="40" cy="60" r="8" fill="#0A2540"/><circle cx="61" cy="39" r="9.5" fill="#2F6BFF"/></svg>
+              OppNexa
+            </span>
+          </div>
+          <div class="tabbody"></div>
+        </div>
+        <div class="vcap" style="margin-top:10px">Browser tab</div>
+      </div>
+      <!-- business card -->
+      <div style="text-align:center">
+        <div class="card-b">
+          <div class="lockup" style="gap:10px">
+            <svg width="30" height="30" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="33" stroke="#fff" stroke-width="9"/><line x1="40" y1="60" x2="61" y2="39" stroke="#fff" stroke-width="9" stroke-linecap="round"/><circle cx="40" cy="60" r="7.5" fill="#fff"/><circle cx="61" cy="39" r="9" fill="#2F6BFF"/></svg>
+            <span class="wordmark" style="font-size:19px;color:#fff">Opp<span style="color:#6ea2ff">Nexa</span></span>
+          </div>
+          <div>
+            <div class="nm">Jayavardhan Putta</div>
+            <div class="ti">Co-Founder</div>
+            <div class="ct">hello@oppnexa.com · oppnexa.com</div>
+          </div>
+        </div>
+        <div class="vcap" style="margin-top:10px">Business card</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PALETTE + TYPE -->
+  <div class="sec">
+    <span class="tag">System</span>
+    <div class="cols">
+      <div>
+        <h2>Palette</h2>
+        <div class="swatches">
+          <div class="sw"><div class="box" style="background:#0A2540"></div><div class="nm">Navy</div><div class="hx">#0A2540</div></div>
+          <div class="sw"><div class="box" style="background:#13315C"></div><div class="nm">Navy 2</div><div class="hx">#13315C</div></div>
+          <div class="sw"><div class="box" style="background:#2F6BFF"></div><div class="nm">Blue</div><div class="hx">#2F6BFF</div></div>
+          <div class="sw"><div class="box" style="background:#10B981"></div><div class="nm">Emerald</div><div class="hx">#10B981</div></div>
+          <div class="sw"><div class="box" style="background:#64748B"></div><div class="nm">Grey</div><div class="hx">#64748B</div></div>
+        </div>
+      </div>
+      <div>
+        <h2>Type</h2>
+        <div style="font-family:'Plus Jakarta Sans';font-weight:800;font-size:25px">Plus Jakarta Sans</div>
+        <p class="muted" style="margin:2px 0 12px">Logo &amp; headlines</p>
+        <div style="font-family:'Inter';font-weight:600;font-size:18px">Inter</div>
+        <p class="muted" style="margin:2px 0">Body &amp; data tables</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pick">
+    If this direction feels right, say <b>“go with it”</b> and I’ll export the full asset set (SVG + PNG, favicon, app icons) and start the website.<br>
+    Want it adjusted — <b>bolder, thinner, different accent, link angle</b> — tell me and I’ll tune the exact geometry.
+  </div>
+</div>
+</body>
+</html>
