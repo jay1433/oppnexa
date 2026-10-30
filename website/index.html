@@ -30,8 +30,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/motion.css" />
 </head>
 <body>
+<div class="scroll-progress" aria-hidden="true"></div>
 
 <!-- ============ NAV ============ -->
 <header class="nav" id="nav">
@@ -78,11 +80,11 @@
         <div class="report-card">
           <div class="rc-head">
             <span class="rc-title">This week's opportunities</span>
-            <span class="rc-badge"><span class="live-dot"></span> 24 new</span>
+            <span class="rc-badge"><span class="live-dot"></span> <b class="rc-count">24</b> new</span>
           </div>
           <div class="rc-row"><div><strong>IT Modernization — State of Texas</strong><span>Closes in 12 days · $1.2M</span></div><span class="rc-tag">Gov</span></div>
           <div class="rc-row"><div><strong>Mobile App Development — FinTech Co.</strong><span>Closes in 8 days · $240K</span></div><span class="rc-tag green">Software</span></div>
-          <div class="rc-row"><div><strong>Warehouse Fit-out — Retail Group</strong><span>Closes in 9 days · ₹3.8Cr</span></div><span class="rc-tag">Private</span></div>
+          <div class="rc-row"><div><strong>Medical Equipment — Metro Hospital Network</strong><span>Closes in 10 days · ₹3.2Cr</span></div><span class="rc-tag">Health</span></div>
           <div class="rc-row"><div><strong>Cloud Migration RFP — Logistics Co.</strong><span>Closes in 7 days · ₹1.6Cr</span></div><span class="rc-tag green">IT</span></div>
           <div class="rc-foot">+ full contact details for each bid</div>
         </div>
@@ -112,6 +114,7 @@
         <h2>From thousands of bids to the few that fit you</h2>
         <p>Three steps. No portals to learn, no research to do. Just open bids, ready to pursue.</p>
       </div>
+      <div class="steps-track" aria-hidden="true"><span class="steps-fill"></span><i></i><i></i><i></i></div>
       <div class="steps">
         <div class="step reveal">
           <span class="step-no">01</span>
@@ -156,7 +159,7 @@
       <div class="reveal">
         <span class="kicker">Who it's for</span>
         <h2>Growing companies that can't afford to miss a bid</h2>
-        <p class="who-lead">If you're a team of 50–200 without a dedicated bid-hunting department, OppNexa is your bid desk — for a fraction of the cost of hiring one.</p>
+        <p class="who-lead">Whether you're in healthcare, IT, construction, or services, if you're a team of 50–200 without a dedicated bid-hunting department, OppNexa is your bid desk — for a fraction of the cost of hiring one.</p>
         <ul class="check-list">
           <li>You know there are contracts worth pursuing — public and private — but finding them eats time you don't have.</li>
           <li>You've missed bids simply because you didn't hear about them in time.</li>
@@ -300,5 +303,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/motion.js"></script>
 </body>
 </html>
